@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Plan de projet" company="" webLink="http://" view-date="2017-02-01" view-index="0" gantt-divider-location="565" resource-divider-location="300" version="2.8.1" locale="fr_CA">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="322" order="0"/>
+        <field id="tpd4" name="Date de début" width="63" order="1"/>
+        <field id="tpd5" name="Date de fin" width="81" order="2"/>
+        <field id="tpc0" name="Durée" width="80" order="3"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Durée" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Documentation du projet" meeting="false" start="2017-02-10" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="5 heures"/>
+        </task>
+        <task id="2" name="Compréhension des différents composantes nécessaires" meeting="false" start="2017-02-10" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="5 heures"/>
+        </task>
+        <task id="74" name="Livrable 1" color="#8cb6ce" meeting="false" start="2017-02-17" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise du plan de projet et rapport de développement]]></notes>
+        </task>
+        <task id="19" name="Hypothèse pour la force du servomoteur requis" meeting="false" start="2017-02-17" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value=""/>
+            <task id="23" name="Type de matériel à utiliser" meeting="false" start="2017-02-17" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="30 minutes"/>
+            </task>
+            <task id="24" name="Dimension du plateau" meeting="false" start="2017-02-17" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="1 heure"/>
+            </task>
+            <task id="55" name="Calcul des forces en jeu" color="#8cb6ce" meeting="false" start="2017-02-17" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="5 heures"/>
+            </task>
+        </task>
+        <task id="75" name="Livrable 2" color="#8cb6ce" meeting="false" start="2017-02-24" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise des calculs des forces appliquées et des caractéristiques du plateau]]></notes>
+        </task>
+        <task id="44" name="Recherche informative sur l'équipement à choisir" meeting="false" start="2017-02-24" duration="11" complete="0" expand="true">
+            <task id="45" name="Recherche sur l'utilisation d'un écran tactile" meeting="false" start="2017-02-24" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="30 minutes"/>
+            </task>
+            <task id="46" name="Recherche sur l'utilisation d'un Webcam" meeting="false" start="2017-02-24" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="1:30 heure"/>
+            </task>
+            <task id="47" name="Recherche sur l'utilisation d'un accéléromètre" meeting="false" start="2017-02-24" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="1:30 heure"/>
+            </task>
+            <task id="60" name="Recherche sur l'utilisation d'un gyroscope" meeting="false" start="2017-02-24" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="1:30 heure"/>
+            </task>
+            <task id="50" name="Choix du mécanisme récepteur" meeting="false" start="2017-03-03" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="1 heure"/>
+            </task>
+            <task id="49" name="Choix du servo moteur" meeting="false" start="2017-03-03" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="1 heure"/>
+            </task>
+            <task id="109" name="Livrable 3" color="#8cb6ce" meeting="false" start="2017-03-10" duration="1" complete="0" expand="true">
+                <notes><![CDATA[Remise de la recherche sur l'utilisation des équipements, le choix du mécanisme récepteur et du servomoteur]]></notes>
+            </task>
+        </task>
+        <task id="16" name="Schéma pour la construction du projet" meeting="false" start="2017-03-10" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="4 heures"/>
+        </task>
+        <task id="83" name="Livrable 4" color="#8cb6ce" meeting="false" start="2017-03-17" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise du schéma de construction]]></notes>
+        </task>
+        <task id="7" name="Planification du budget" meeting="false" start="2017-03-17" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="1:30 heure"/>
+        </task>
+        <task id="56" name="Procuration des pièces" meeting="false" start="2017-03-17" duration="6" complete="0" expand="true">
+            <task id="57" name="Achat des pièces (en ligne)" meeting="false" start="2017-03-17" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="1 heure"/>
+            </task>
+            <task id="58" name="Achat des pièces (au magasin)" meeting="false" start="2017-03-17" duration="6" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="2 heures"/>
+            </task>
+        </task>
+        <task id="86" name="Livrable 5" color="#8cb6ce" meeting="false" start="2017-03-24" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise de la planification de budget et des pièces procurées]]></notes>
+        </task>
+        <task id="12" name="Fabrication du projet (mécanique)" meeting="false" start="2017-03-24" duration="11" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="7 heures"/>
+        </task>
+        <task id="88" name="Livrable 6" color="#8cb6ce" meeting="false" start="2017-04-07" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise du projet construit]]></notes>
+        </task>
+        <task id="52" name="Codage" meeting="false" start="2017-04-07" duration="11" complete="0" expand="true">
+            <task id="53" name="Codage pour le mécanisme récepteur" meeting="false" start="2017-04-07" duration="11" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="7 heures"/>
+            </task>
+            <task id="54" name="Codage pour le servo moteur" meeting="false" start="2017-04-07" duration="11" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc0" value="10 heures"/>
+            </task>
+        </task>
+        <task id="92" name="Livrable 7 V1.0" color="#8cb6ce" meeting="false" start="2017-04-21" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise du code]]></notes>
+        </task>
+        <task id="116" name="Recherche sur le fonctionnement pour le controlleur Wii" meeting="false" start="2017-04-21" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="30 minutes"/>
+        </task>
+        <task id="59" name="Codage pour le controlleur Wii" meeting="false" start="2017-04-21" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="4 heures"/>
+        </task>
+        <task id="95" name="Livrable 8 V2.0" color="#8cb6ce" meeting="false" start="2017-04-28" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise de la recherche sur le controlleur Wii et le codage]]></notes>
+        </task>
+        <task id="120" name="Codage pour calibrage automatique" meeting="false" start="2017-04-28" duration="11" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="4 heures"/>
+        </task>
+        <task id="121" name="Livrable 9 V3.0" color="#8cb6ce" meeting="false" start="2017-05-12" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Remise du code pour le calibrage automatique du système]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
